@@ -52,7 +52,7 @@ public class PlayerStartingInventorySystem extends BaseComponentSystem {
 
         inventoryManager.giveItem(chest, EntityRef.NULL, blockFactory.newInstance(blockManager.getBlockFamily("core:companion"), 99));
         inventoryManager.giveItem(chest, EntityRef.NULL, blockFactory.newInstance(blockManager.getBlockFamily("core:brick:engine:stair"), 99));
-        inventoryManager.giveItem(chest, EntityRef.NULL, blockFactory.newInstance(blockManager.getBlockFamily("core:Tnt"), 99));
+        inventoryManager.giveItem(chest, EntityRef.NULL, blockFactory.newInstance(blockManager.getBlockFamily("core:Tnt"), 32));
         inventoryManager.giveItem(chest, EntityRef.NULL, entityManager.create("core:fuseShort"));
         inventoryManager.giveItem(chest, EntityRef.NULL, entityManager.create("core:fuseLong"));
         inventoryManager.giveItem(chest, EntityRef.NULL, entityManager.create("core:shallowRailgunTool"));
